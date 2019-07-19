@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Chivo|Lobster+Two|Mada');
+
+* {
+    font-family: 'Architects Daughter', cursive; 
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right ul li a {
+    color: black;
+}
+
+.row{
+    background-color:#FF1919;
+    /* font-weight: bolder; */
+    padding-right: 10px;
+}
+ 
+.one{
+    color: #015A9C;
+    padding-top: 8%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.logo{
+    height:250px;
+    width:200px;
+}
+
+.intro{
+    font-size: 3em;
+}
+
+div ul li{
+    font-size: 1.3em;
+}
+.org{
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.3em;
+}
+
+/* EVERYTHING ABOVE THIS LINE FOR FRAMEWORK */
+
+.two{
+    padding: 20px 0;
+    margin:50px 0;
+    border-radius: 20px;
+    border:5px solid #FF1919;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.dancer{
+    max-width: 400px;
+}
+
+.list{
+    color:white;
+    background-color:#015A9C;
+    border-radius: 20px;
+    border: 5px solid #fff200;
+    margin:10px;
+    padding:10px 20px;
+    -webkit-box-shadow: 2px 2px 2px darkgray;
+    box-shadow: 3px 3px 3px #860118;
+}
+
+span{
+    
+    color: darkorange;
+}
+
+ol li{
+    list-style: none;
+}
+
+ol{
+    padding:0;
+    font-size: 1.5em;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+h2 a{
+    color:white;
+}
+
+h2 a:hover{
+    color:#fff200;
+}
+
+.footer{
+    background-color:#FF1919;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    position:static;
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    font-size: 1.3em;
+    padding-top:8px;
+}
+
+.ackn a{
+    color:white;
+}
+
+.ackn a:hover{
+    color:white;
+    text-decoration: overline;
+}
+
+/* EVERYTHING BELOW THIS LINE FOR FRAMEWORK */
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {
+        background: url("images/logo.png") repeat-x;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    .one{
+        padding-top:15%;
+        font-size:.5em;
+    }
+}

@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Chivo');
+
+/* 
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Lobster Two', cursive;
+
+    font-family: 'Mada', sans-serif;
+
+    font-family: 'Chivo', sans-serif;
+*/
+
+* {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.dropdown-menu li a{
+    color: black;
+}
+
+.nav.navbar-nav.navbar-right ul li a {
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.row{
+    background-color:#FF1919;
+    /* font-weight: bolder; */
+    padding-right: 10px;
+}
+
+.one{
+    color: #015A9C;
+    padding-top: 8%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.logo{
+    height:250px;
+    width:200px;
+}
+
+.intro{
+    font-size: 3em;
+}
+
+li{
+    font-size: 1.3em;
+}
+.org{
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.3em;
+}
+
+
+
+/*  SECTION Sponsors */
+
+.sponsors-2019{
+    color:white;
+}
+
+span a{
+    color: #FFF200;
+}
+
+span a:hover{
+    color:white;
+}
+
+.sponsor{
+    font-family: 'Architects Daughter', cursive;
+    margin: 50px 0;
+    background-color:#015A9C;
+    border:5px solid #FFF200;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+.silver, .other{
+    color:white;
+    font-weight: 500;
+    
+}
+
+.spon{
+    height: auto;
+    margin:20px;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+.contrib{
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+.ruben{
+    margin:20px;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+
+
+
+/* EVERYTHING ABOVE THIS LINE FOR FRAMEWORK */
+
+.two{
+    margin:25px 0 25px 0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.save{
+    
+    padding:20px;
+    border:5px solid #FFF200;
+    background-color:#015A9C;
+    border-radius: 10px;
+    font-size: 1.6em;
+    color: white;
+    width:800px;
+}
+
+span{
+    font-size: 1.5em;
+}
+
+.inner{
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inner a{
+    color:#FFF200;
+}
+
+.inner a:hover{
+    color:white;
+}
+
+
+
+
+.three{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    background-color:#FF1919;
+    border-radius: 10px;
+}
+
+.aboutUs{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.about{
+    border:5px solid #FFF200;
+    padding:10px;
+    background-color:#015A9C;
+    border-radius: 10px;
+    margin:25px;
+    color: white;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align:center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 3px 3px 3px #860118;
+    box-shadow: 3px 3px 3px #860118;
+}
+
+.about:hover{
+    background-color:#015594;
+}
+
+.left{
+    font-size: 3em;
+    height:100%;
+    width:200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content:flex-start;
+}
+
+.right{
+    font-size:1.5em;
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex:1;
+	-ms-flex:1 1 60%;
+	flex:1 1 60%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color:#015A9C;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    position:static;
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    font-size: 1.3em;
+    padding-top:8px;
+}
+
+.ackn a{
+    color:white;
+}
+
+.ackn a:hover{
+    color:white;
+    text-decoration: overline;
+    color:#FFF200;
+}
+
+
+
+
+
+
+
+
+/* EVERYTHING BELOW THIS LINE FOR FRAMEWORK */
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {
+        background: url("images/logo.png") repeat-x;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .save{
+        width:75%;
+    }
+    .spon{
+        width:50%;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    .one{
+        padding-top:15%;
+        font-size:.5em;
+    }
+    .save{
+        width:50%;
+    }
+    .about{
+        width:100%;
+        padding:0;
+    }
+    .spon{
+        width:50%;
+    }
+    
+}

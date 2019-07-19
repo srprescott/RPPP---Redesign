@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Chivo|Lobster+Two|Mada');
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.nav.navbar-nav.navbar-right ul li a {
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+.row{
+    background-color:#FF1919;
+    /* font-weight: bolder; */
+    padding-right: 10px;
+}
+
+.row2{
+    padding-top: 25px;
+}
+/*  SECTION ONE */
+.one{
+    font-family: 'Architects Daughter', cursive;
+    color: #015A9C;
+    padding-top: 8%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.logo{
+    height:250px;
+    width:200px;
+}
+
+.intro{
+    font-size: 3em;
+}
+
+li{
+    font-size: 1.3em;
+}
+.org{
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.3em;
+}
+/*  SECTION HALF TWO */
+
+.halfTwo{
+    
+}
+
+.sponsor{
+    font-family: 'Architects Daughter', cursive;
+    margin: 50px 0;
+    background-color:#015A9C;
+    border:5px solid #FFF200;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+    
+}
+
+.silver{
+    color:white;
+    font-weight: 500;
+}
+
+.spon{
+    margin:20px;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+.scroll{
+    color:#FF1919;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    width:100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pass{
+    color:#015A9C;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.5rem;
+}
+
+
+/*  SECTION TWO */
+.two{
+    height:100%;
+    width:100%;
+    background-color: white;
+    padding:25px;
+}
+
+.invitation{
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flyer{
+    height:100%;
+    width:100%;
+    margin:2%;
+}
+
+.buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+.click{
+    height:100%;
+    border: 4px solid #015A9C;
+    margin:10px;
+}
+
+.pay{
+    font-family: 'Mada', cursive;
+    /* background-color: #fee266; */
+    padding:20px 0;
+    margin:10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.paypal{
+    background-color:#015A9C;
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.table-color{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.reserve{
+    font-size: 2.5rem;
+    font-family: 'Mada', cursive;
+    color:white;
+}
+
+
+.end{
+    padding: 20px 5%;
+    color: white;
+    font-size: 3rem;
+}
+
+.footer{
+    background-color:#FF1919;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    position:static;
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    font-size: 1.3em;
+    padding-top:8px;
+}
+
+.ackn a{
+    color:white;
+}
+
+.ackn a:hover{
+    color:white;
+    text-decoration: overline;
+}
+
+
+.congrats{
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    color:white;
+    background-color: #015A9C;
+    border-radius: 20px;
+}
+
+
+.winner{
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    margin: 15px; 
+}
+
+
+
+
+.gallery{
+    margin: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.image-fund{
+    margin: 5px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {
+        background: url("images/flyer.jpg") repeat-x;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .stars{
+        height:100%;
+        width:100%;
+    }
+    .pay{
+        width:100%;
+    }
+    select{
+        width:100%;
+    }
+    .spon{
+        width:50%;
+    }
+    iframe, .invitation{
+        max-width: 100%;
+        height:auto;
+    }
+    .image-fund, .gallery{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        max-width:100%;
+        height:auto;
+    }
+    .congrats{
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .stars{
+        height:100%;
+        width:100%;
+    }
+    .pay{
+        width:100%;
+    }
+    select{
+        width:100%;
+    }
+    .spon{
+        width:50%;
+    }
+    iframe, .invitation{
+        max-width: 100%;
+        height:auto;
+    }
+    .image-fund, .gallery{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        max-width:100%;
+        height:auto;
+    }
+    .congrats{
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    .one{
+        padding-top:15%;
+        font-size:.5em;
+    }
+    .stars{
+        height:100%;
+        width:100%;
+    }
+    .pay{
+        width:100%;
+    }
+    select{
+        width:100%;
+    }
+    .spon{
+        width:50%;
+    }
+    iframe, .invitation{
+        max-width: 100%;
+        height:auto;
+    }
+    .image-fund, .gallery{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        max-width:100%;
+        height:auto;
+    }
+    .congrats{
+        padding: 10px;
+        margin: 0;
+    }
+    
+}

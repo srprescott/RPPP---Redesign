@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Chivo|Lobster+Two|Mada');
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.nav.navbar-nav.navbar-right ul li a {
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+ 
+.row{
+    background-color:#FF1919;
+    /* font-weight: bolder; */
+    padding-right: 10px;
+}
+
+.row2{
+    padding-top: 25px;
+}
+/*  SECTION ONE */
+.one{
+    font-family: 'Architects Daughter', cursive;
+    color: #015A9C;
+    padding-top: 8%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.logo{
+    height:250px;
+    width:200px;
+}
+
+.intro{
+    font-size: 3em;
+}
+
+li{
+    font-size: 1.3em;
+}
+.org{
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.3em;
+}
+/*  SECTION HALF TWO */
+
+.halfTwo{
+    
+}
+
+.sponsor{
+    font-family: 'Architects Daughter', cursive;
+    margin: 50px 0;
+    background-color:#015A9C;
+    border:5px solid #FFF200;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+    
+}
+
+.silver, .other{
+    color:white;
+    font-weight: 500;
+}
+
+.spon{
+    width:20%;
+    margin:20px;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+.ruben{
+    width:50%;
+    margin:20px;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+
+/*  SECTION TWO */
+.two{
+    background-color: #015A9C;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    border:5px solid #FF1919;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.invitation{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+.password{
+    color:white;
+    font-size: 2em;
+}
+
+
+
+
+
+/* SECTION THREE */
+.three{
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #015A9C;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    border:5px solid #FFF200; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+.winner{
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+.sliderOne{
+    margin:40px;
+}
+
+.mySlides{
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+    margin:10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position:inherit;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color:#FF1919;
+    z-index: 10;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev{
+    left:0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #FFF200;
+}
+
+
+.pano{
+    margin-bottom: 15px;
+    -webkit-box-shadow: 3px 3px 3px #0A1123;
+    box-shadow: 3px 3px 3px #0A1123;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color:#FF1919;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    position:static;
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    font-size: 1.3em;
+    padding-top:8px;
+}
+
+.ackn a{
+    color:white;
+}
+
+.ackn a:hover{
+    color:white;
+    text-decoration: overline;
+}
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {
+        background: url("images/flyer.jpg") repeat-x;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .stars{
+        height:100%;
+        width:100%;
+    }
+    .pay{
+        width:100%;
+    }
+    select{
+        width:100%;
+    }
+    .spon{
+        width:50%;
+    }
+    .winner{
+       width:100%; 
+    }
+    .mySlides{
+        width:100%;
+    }
+    .pano{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    .stars{
+        height:100%;
+        width:100%;
+    }
+    .pay{
+        width:100%;
+    }
+    select{
+        width:100%;
+    }
+    .spon{
+        width:50%;
+    }
+    iframe{
+        width:50%;
+    }
+    .winner{
+       width:100%; 
+    }
+    .mySlides{
+        width:100%;
+    }
+    .pano{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    .one{
+        padding-top:15%;
+        font-size:.5em;
+    }
+    .stars{
+        height:100%;
+        width:100%;
+    }
+    .pay{
+        width:100%;
+    }
+    select{
+        width:100%;
+    }
+    .spon{
+        width:50%;
+    }
+    iframe{
+        width:50%;
+    }
+    .winner{
+       width:100%; 
+    }
+    .mySlides{
+        width:100%;
+    }
+    .pano{
+        width:100%;
+    }
+}
