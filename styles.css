@@ -32,6 +32,11 @@
     padding-right: 10px;
 }
 
+.save, .sponsor, .three{
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+}
+
 .one{
     color: #015A9C;
     padding-top: 8%;
@@ -116,8 +121,8 @@ span a:hover{
 .spon{
     height: auto;
     margin:20px;
-    -webkit-box-shadow: 3px 3px 3px #0A1123;
-    box-shadow: 3px 3px 3px #0A1123;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
 }
 
 .contrib{
@@ -127,8 +132,8 @@ span a:hover{
 
 .ruben{
     margin:20px;
-    -webkit-box-shadow: 3px 3px 3px #0A1123;
-    box-shadow: 3px 3px 3px #0A1123;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
 }
 
 
@@ -224,8 +229,8 @@ span{
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-shadow: 3px 3px 3px #860118;
-    box-shadow: 3px 3px 3px #860118;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
 }
 
 .about:hover{
